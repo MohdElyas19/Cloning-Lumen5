@@ -1,0 +1,57 @@
+#signup {
+    display: flex;
+}
+#signup>div:nth-child(1){
+    width: 31%;
+    background-color: #5846F6;
+    color: white;
+    padding-left: 40px;
+}
+#box1>h1 {
+    font-size: 60px;
+}
+#box1>h3 {
+    font-size: 30px;
+}
+#signup>div:nth-child(2){
+    width: 69%;
+    padding-left: 110px;
+}
+#submit {
+    padding: 15px 150px;
+    border: 1px solid blue;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #5846F6;
+}
+#fb {
+    padding: 15px 126px;
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#or {
+    display: flex;
+}
+#or > div{
+    margin-top: 24px;
+    width: 185px;
+    height: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#name, #email, #password {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+form {
+    line-height: 30px;
+}
+#p {
+    font-size: 20px;
+}

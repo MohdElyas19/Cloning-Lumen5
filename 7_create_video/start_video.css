@@ -1,0 +1,109 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+#img {
+    width: 150px;
+}
+#navDiv {
+    display: inline;
+    width: 5px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+#navChild {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+#btn1 {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#btn3 {
+    border: 1px solid blue;
+    padding: 0px 20px;
+    color: #242485;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#btn3:hover {
+    background-color: blue;
+    color: white;
+}
+#btn2 {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+#box1 {
+    display: flex;
+}
+#box1Child1 {
+    width: 20%;
+    height: 580px;
+    background-color: white;
+    line-height: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+    color: rgb(144, 161, 179);
+    font-size: 17px;
+}
+#p1 {
+    padding-top: 30px;
+    font-size: 21px;
+}
+#box1Child1 > p:hover {
+    color: blue;
+}
+#box1Child2 {
+    width: 80%;
+    background-color: whitesmoke;
+    height: 580px;
+}
+.child1 {
+    display: flex;
+    width: 70%;
+    gap: 20px;
+    padding-left: 30px;
+}
+.child1 > div:nth-child(1) {
+    width: 40%;
+    text-align: center;
+    line-height: 190px;
+    background-color: rgb(47, 47, 216);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.child1 > div:nth-child(2) {
+background-color: #f5f0f0;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+width: 40%;
+}
+#insideDiv {
+    margin: auto;
+    padding-top: 30px;
+    width: 80%;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-top: 80px;
+}
+#insideDiv > div {
+    margin-top: 30px;
+}
+.insideDiv {
+    margin-top: 80px;
+    background-color: white;
+    height: 150px;
+    line-height: 70px;
+}
+.p1 {
+    display: inline;
+    color: rgb(129, 133, 134);
+}

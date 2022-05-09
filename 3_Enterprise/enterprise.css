@@ -1,0 +1,217 @@
+#navHead {
+    background-color: #212529;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    color: white;
+    padding-bottom: 0px;
+}
+#navbar2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin: auto;
+    margin-right: 0px;
+}
+#navbar2>div{
+    margin: auto;
+    cursor: pointer;
+    color: white;
+}
+#navSel{
+    border: none;;
+    font-size: 17px;
+    color: white;
+    background-color: #212529;
+}
+#pricing ,#enterprise, #caseStudies{
+    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    height: 80px;
+    width: 130p;
+}
+#login{
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+}
+#login:hover{
+    background-color: blue;
+    color: white;
+}
+#signup{
+    border: 1px solid blue;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+}
+.login {
+    text-decoration: none;
+    color: white;
+}
+.signup {
+    text-decoration: none;
+    color: white;
+}
+#headBox1 {
+    background-color: #212529;
+    color: white;
+    padding-bottom: 70px;
+}
+#box1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 40px;
+}
+#box1>div>h1 {
+    font-size: 50px;
+}
+#box1>div>h3 {
+    font-size: 20px;
+}
+#box1>div>p {
+    font-size: 20px;
+}
+#image1 {
+    width: 500px;
+    height: 500px;
+}
+#box1Sign {
+    padding: 20px 30px;
+    border-radius: 30px;
+    background-color: #5846F6;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#box2 {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #FFFFFF;
+}
+#box2 > p {
+    font-size: 20px;
+    text-align: center;
+}
+#box2Child {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+}
+#box3 {
+    background-color: #212529;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.box3Child > div{
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+#box4 {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0px;
+}
+#box5 {
+    display: flex;
+    background-color: #212529;
+    color: white;
+    justify-content: space-around;
+    padding: 70px 0px;
+}
+#box5 p , #box6 p {
+    font-size: 20px;
+}
+#box6 {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0px;
+}
+
+#box7 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #212529;
+    color: white;
+    padding: 70px 0px;
+}
+#box7 p {
+    font-size: 19px;
+    line-height: 25px;
+}
+.box7Child {
+    display: flex;
+    margin: auto;
+}
+.box7Child > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 23px;
+}
+#box8 {
+    padding: 90px 0px;
+    text-align: center;
+    margin-left: 50px;
+}
+#box8 > h1 {
+    font-size: 40px;
+}
+#box8  button {
+    padding: 15px 50px;
+    font-size: 20px;
+    border: 1px solid blue;
+    border-radius: 30px;
+    color: blue;
+    background-color: white;
+}
+#box8  button:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#box8 > .blue {
+    background-color: blue;
+    color: white;
+}
+
+
+#box9 {
+    width: 80%;
+    margin: auto;
+}
+#child9 {
+   display: flex;
+}
+#child9 > div {
+   width: 27%;
+   margin: auto;
+   height: 400px;
+}
+.img9 {
+   width: 100%;
+   height: 170px;
+}
+#h1_9 {
+   text-align: center;
+}
+#child9 > div > a{
+   text-decoration: none;
+}
